@@ -10,10 +10,16 @@ header {
  padding: 1rem;
  text-align: center;
 }
-.producto {
- background: white;
+producto {
+ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+ color: white;
  padding: 20px;
  margin: 10px 0;
- border-radius: 8px;
- box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+ border-radius: 12px;
+ box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+ transition: transform 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
 }
